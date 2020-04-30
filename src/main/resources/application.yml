@@ -1,0 +1,34 @@
+param:
+     port: 8529
+#     host: 127.0.0.1
+#     dbName: TestDb
+#     collectionName: TestCollection
+
+
+     host: 47.105.80.217
+     dbName: _system
+     collectionName: Characters  #experiment的集合Name
+     computerClusterName: Cluster #Cluster的集合Name
+     dsCollectionName: dataSource #dataSource的集合Name
+     noteBookCllectionName: noteBook #notebook的集合Name
+
+
+
+spring:
+     jackson:
+          time-zone=GMT+8:
+#param.host=127.0.0.1
+#param.port=8529
+#param.dbName=TestDb
+#param.collectionName=TestCollection
+#数据库名称_system
+#spring:
+#     data:
+#        arangodb:
+#                    database: TestDb
+#                    user: root
+#                    password: admin123456ss
+#                    hosts: 127.0.0.1:8529
+
+
+
